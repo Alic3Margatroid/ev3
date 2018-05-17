@@ -87,7 +87,7 @@ if __name__ == "__main__":
 	n = ev3.LargeMotor('outD')
 	gyro = ev3.GyroSensor('in2')
 	gyro.mode = 'GYRO-ANG'
-	color = ev3.ColorSensor()
+	color = ev3.ColorSensor('in1')
 	color.mode = 'COL-COLOR'
 	# while True:
 	# 	print(color.color)
